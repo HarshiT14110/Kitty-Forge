@@ -1,104 +1,149 @@
-# 🐱 KittyForge — AI Website Builder
+# 🐱✨ KittyForge — AI Website Builder
 
-KittyForge is an AI-powered platform that generates complete websites from simple text prompts. Just describe what you want, and the AI builds a working frontend with HTML, CSS, and JavaScript — instantly.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&color=8B5CF6&center=true&vCenter=true&width=600&lines=Turn+Ideas+into+Websites+with+AI;Build+Apps+in+Seconds;Your+AI+Frontend+Engineer" />
+</p>
+
+---
+
+## 🚀 About KittyForge
+
+**KittyForge** is an AI-powered platform that transforms your ideas into fully functional websites.
+Just type what you want — and the AI generates complete code instantly.
+
+> 💡 From idea → to working app → in seconds.
 
 ---
 
 ## ✨ Features
 
-* 🤖 **AI-Powered Generation**
-  Turn ideas into fully functional websites using natural language prompts.
+* 🤖 **AI-Powered Website Generation**
+  Describe your idea, and get a complete working website.
 
 * ⚡ **Live Preview**
-  Instantly see your generated website in a real-time preview panel.
+  Instantly visualize your generated app.
 
 * 💻 **Code Editor (VS Code Style)**
-  Edit HTML, CSS, and JavaScript with a clean, developer-friendly interface.
+  Edit HTML, CSS, and JS seamlessly.
 
 * 🗂️ **Multi-File Tabs**
-  Switch between files like a modern IDE.
+  Switch between files like a pro developer.
 
 * 🧠 **Command Palette (⌘K / Ctrl+K)**
-  Quickly generate apps or trigger actions using a floating command bar.
+  Trigger actions instantly.
 
-* 🪄 **Split View Resize**
-  Drag to resize panels just like VS Code.
+* 🪄 **Resizable Split View**
+  Drag panels like VS Code.
 
-* 💬 **Integrated AI Chat**
-  Interact with the assistant to refine or regenerate your app.
+* 💬 **AI Chat Assistant**
+  Refine your app with natural conversation.
 
-* 🎨 **Modern Premium UI**
-  Glassmorphism design with gradients, blur effects, and smooth animations.
+* 🎨 **Premium UI/UX**
+  Glassmorphism + gradients + smooth animations.
 
 ---
 
 ## 🛠️ Tech Stack
 
-Frontend: React + TypeScript + Vite + Tailwind CSS
-Backend: Node.js + Express
-AI: Google Gemini API
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,tailwind,nodejs,express,firebase" />
+</p>
+
+* **Frontend:** React + TypeScript + Vite + Tailwind CSS
+* **Backend:** Node.js + Express
+* **AI Engine:** Google Gemini API
+* **Authentication & Database:** Firebase (Auth + Firestore)
 
 ---
 
-## 🚀 How It Works
+## 🔐 Firebase Integration
 
-1. Enter a prompt (e.g., *"Create a calculator app"*)
-2. AI generates complete website files:
+KittyForge uses **Firebase** for authentication and user management.
 
-   * `index.html`
-   * `style.css`
-   * `script.js`
-3. Files are rendered instantly in the preview
-4. You can edit code or regenerate using chat
+### 🔑 Features:
+
+* Secure user authentication (Email / Google)
+* Persistent login sessions
+* User data storage using Firestore
+
+### 📊 What gets stored:
+
+* User ID (UID)
+* Email
+* Projects (optional extension)
+* Generated apps (optional extension)
+
+---
+
+## 🧠 How It Works
+
+```mermaid
+flowchart LR
+A[User Prompt] --> B[Backend API]
+B --> C[Gemini AI]
+C --> D[Generate Code]
+D --> E[Frontend Preview]
+```
+
+1. User enters a prompt
+2. Backend sends request to AI
+3. AI generates HTML, CSS, JS
+4. App renders instantly in preview
 
 ---
 
 ## 📁 Project Structure
 
-```
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── utils/
-│   ├── firebase/
-│   └── App.tsx
-├── server.ts
-├── package.json
-└── vite.config.ts
+```bash
+src/
+ ├── components/
+ ├── pages/
+ ├── utils/
+ ├── firebase/
+ └── App.tsx
+
+server.ts
+vite.config.ts
+package.json
 ```
 
 ---
 
 ## 🎯 Use Cases
 
-* Rapid prototyping
-* Learning frontend development
-* Generating UI ideas
-* Building MVPs quickly
+* 🚀 Rapid prototyping
+* 📚 Learning frontend development
+* 💡 Generating UI ideas
+* 🛠️ Building MVPs quickly
 
 ---
 
 ## ⚠️ Notes
 
-* AI responses depend on API limits (free tier has daily request limits)
-* Generated code may require minor tweaks for production use
-* Internet connection required for AI generation
+* AI responses depend on API limits (free tier restrictions)
+* Generated code may need refinement for production
+* Internet connection required
 
 ---
 
-## 💡 Future Improvements
+## 🌟 Future Improvements
 
 * 🌍 One-click deployment
 * 🧠 Multi-step AI reasoning
-* 🧾 Project saving & history
-* 🔄 Real-time collaborative editing
+* 💾 Save & load projects
+* 🤝 Real-time collaboration
 * 🧩 Component-based generation
 
 ---
 
 ## 🐾 Final Thoughts
 
-KittyForge transforms ideas into reality with the power of AI.
-From concept to code in seconds — just describe, and build.
+> “Describe it. Generate it. Build it.”
+
+KittyForge is your AI-powered creative partner — turning imagination into real applications instantly.
 
 ---
+
+<p align="center">
+  💜 Built with passion + AI  
+</p>
