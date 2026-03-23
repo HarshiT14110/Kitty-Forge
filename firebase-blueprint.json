@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "Idea": {
+      "title": "Idea",
+      "description": "An idea shared by a user to be forged.",
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "The content of the idea."
+        },
+        "userId": {
+          "type": "string",
+          "description": "The UID of the user who created the idea."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the idea was created."
+        }
+      },
+      "required": ["text", "userId", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/ideas/{ideaId}": {
+      "schema": "Idea",
+      "description": "Collection of ideas shared by users."
+    }
+  }
+}
